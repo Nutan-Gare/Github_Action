@@ -31,7 +31,7 @@ on:
     branches: [ "master" ]
 
 env:
-  AWS_REGION: us-east-1                   # set this to your preferred AWS region, e.g. us-west-1
+  AWS_REGION: ap-southeast-1                # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: myecr           # set this to your Amazon ECR repository name
   ECS_SERVICE: newservice                # set this to your Amazon ECS service name
   ECS_CLUSTER: newcluster                 # set this to your Amazon ECS cluster name
@@ -47,7 +47,7 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    environment: production
+    environment: Heyy
 
     steps:
     - name: Checkout
